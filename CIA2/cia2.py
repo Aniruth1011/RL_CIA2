@@ -6,7 +6,7 @@ from queue import PriorityQueue
 from tqdm import tqdm
 
 class GridWorld:
-    def __init__(self, size, start, goal, obstacle_prob=0.3):
+    def __init__(self, size, start, goal, obstacle_prob=0.2):
         self.size = size
         self.start = start
         self.goal = goal
