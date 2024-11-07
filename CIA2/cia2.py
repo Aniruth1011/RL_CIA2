@@ -116,7 +116,7 @@ def dijkstra(gridworld):
     print("Dijkstra's algorithm completed.")
     return path
 
-size = 100
+size = 20
 start = (0, 0)
 goal = (size - 1, size - 1)
 gridworld = GridWorld(size, start, goal)
